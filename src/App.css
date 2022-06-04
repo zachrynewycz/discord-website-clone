@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Giton-Black;
+        src: url("../public/fonts/Giton Black.otf");
+    }
+
+    @font-face {
+        font-family: Giton-Bold;
+        src: url("../public/fonts/Giton Bold.otf");
+    }
+
+    @font-face {
+        font-family: Giton-Reg;
+        src: url("../public/fonts/Giton Regular.otf");
+    }
+
+    @font-face {
+        font-family: Whitney-Light;
+        src: url("../public/fonts/Whitney Light.otf");
+    }
+
+    @font-face {
+        font-family: Whitney-Reg;
+        src: url("../public/fonts/Whitney Regular.otf");
+    }
+
+    @font-face {
+        font-family: Whitney-Semi;
+        src: url("../public/fonts/Whitney SemiBold.otf");
+    }
+}

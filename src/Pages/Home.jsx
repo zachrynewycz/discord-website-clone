@@ -1,10 +1,16 @@
+import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
+import Header from "../Components/Home/Header";
+import OverviewSections from "../Components/Home/OverviewSections";
 
 const Home = () => {
     return (  
-        <div>
+        <>
             <NavBar/>
-        </div>
+            <Header/>
+            <OverviewSections/>
+            <Footer/>
+        </>
     );
 }
  
