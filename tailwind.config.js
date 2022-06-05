@@ -12,7 +12,8 @@ module.exports = {
       "off-white": "#f6f6f6",
       "white": "#fff",
       "not-quite-black": "#23272a",
-      "ekko-red": "#de2761"
+      "ekko-red": "#de2761",
+      "hero-bg": "rgb(64, 78, 237)",
     },
     extend: {
       fontFamily: {
@@ -22,6 +23,11 @@ module.exports = {
         giton_regular: ["Giton-Reg"],
         giton_bold: ["Giton-Bold"],
         giton_black: ["Giton-Black"]
+      },
+      fontSize: {
+        header: "clamp(24px,5vw,44px)",
+        headerParagraph: "clamp(16px,2vw,20px)",
+        sectionHeader: "clamp(20px, 4vw, 40px)",
       }
     },
   },
