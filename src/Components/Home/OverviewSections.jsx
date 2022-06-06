@@ -35,7 +35,7 @@ const OverviewSections = () => {
             <section className="bg-off-white px-6 pt-28 pb-18 grid grid-cols-1 mx-auto">
                 <div className="md:text-center px-10">
                     <h1 className="font-giton_black text-dark-not-black text-sectionHeader">RELIABLE TECH FOR STAYING CLOSE</h1>
-                    <p className="font-whitney_light text-dark-not-black text-headerParagraph mt-3 max-w-[800px] mx-auto">Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+                    <p className="font-whitney_light text-dark-not-black text-headerParagraph mt-3 max-w-[870px] mx-auto">Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
                 </div>
 
                 <img className="mx-auto" src={`${process.env.PUBLIC_URL}/images/display-demo.svg`}/>
