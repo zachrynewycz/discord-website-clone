@@ -1,10 +1,10 @@
-import WindowsDownloadBtn from "../WindowsDownloadBtn";
+import WindowsDownloadBtn from "./WindowsDownloadBtn";
 
 const OverviewSections = () => {
     return (  
         <div className="min-w-[420px]">
             <section className="px-6 py-28 grid grid-cols-1 md:grid-cols-2 max-w-[1260px] mx-auto">
-                <img className="w-full max-w-[670px]" src={`${process.env.PUBLIC_URL}/images/channel-demo.svg`}/>
+                <img className="w-full max-w-[670px]" src={`${process.env.PUBLIC_URL}/images/channel-demo.svg`} alt=""/>
                 
                 <div className="mt-5 md:w-2/3 mx-auto">
                     <h1 className="font-giton_bold text-dark-not-black text-sectionHeader">Create an invite-only place where you belong</h1>
@@ -19,12 +19,12 @@ const OverviewSections = () => {
                         <p className="font-whitney_light text-not-quite-black mt-4 text-headerParagraph">Grab a seat in a voice channel when you're free. Friends in your server can see you're around and instantly pop in to talk without having to call.</p>
                     </div>
 
-                    <img className="w-full max-w-[670px]" src={`${process.env.PUBLIC_URL}/images/voice-demo.svg`}/>
+                    <img className="w-full max-w-[670px]" src={`${process.env.PUBLIC_URL}/images/voice-demo.svg`} alt=""/>
                 </div>
             </section>
 
             <section className="px-6 py-28 grid grid-cols-1 md:grid-cols-2 max-w-[1260px] mx-auto">
-                <img className="w-full max-w-[670px]" src={`${process.env.PUBLIC_URL}/images/role-demo.svg`}/>
+                <img className="w-full max-w-[670px]" src={`${process.env.PUBLIC_URL}/images/role-demo.svg`} alt=""/>
 
                 <div className="mt-5 md:w-2/3 mx-auto">
                     <h1 className="font-giton_bold text-dark-not-black text-sectionHeader">From few to a fandom</h1>
@@ -38,7 +38,7 @@ const OverviewSections = () => {
                     <p className="font-whitney_light text-dark-not-black text-headerParagraph mt-3 max-w-[870px] mx-auto">Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
                 </div>
 
-                <img className="mx-auto" src={`${process.env.PUBLIC_URL}/images/display-demo.svg`}/>
+                <img className="mx-auto" src={`${process.env.PUBLIC_URL}/images/display-demo.svg`} alt=""/>
 
                 <div className="mx-auto text-center mt-20 mb-28 flex flex-col items-center">
                     <h1 className="font-giton_bold text-3xl text-dark-not-black relative">Ready to start your journey?</h1>
@@ -47,7 +47,7 @@ const OverviewSections = () => {
                         fontStyle={{color: "white", fontSize: "20px"}}
                         iconColor="white"
                     />
-                    <img className="relative bottom-36" src={`${process.env.PUBLIC_URL}/images/stars.svg`}/>
+                    <img className="relative bottom-36" src={`${process.env.PUBLIC_URL}/images/stars.svg`} alt=""/>
                 </div>
             </section>
         </div>

@@ -1,11 +1,11 @@
 import Footer from "../Components/Footer";
-import Header from "../Components/Home/Header";
-import OverviewSections from "../Components/Home/OverviewSections";
+import HomeHeader from "../Components/HomeHeader";
+import OverviewSections from "../Components/OverviewSections";
 
 const Home = () => {
     return (  
         <>
-            <Header/>
+            <HomeHeader/>
             <OverviewSections/>
             <Footer/>
         </>

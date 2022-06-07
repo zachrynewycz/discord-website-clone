@@ -20,9 +20,9 @@ const Footer = () => {
                     <h1 className="font-giton_black text-brand text-[32px]">IMAGINE A <br/> PLACE</h1>
                     
                     <div className="flex items-center mt-4">
-                        <img className="w-6 mr-2" src={`${process.env.PUBLIC_URL}/images/flag.png`}/>
+                        <img className="w-6 mr-2" src={`${process.env.PUBLIC_URL}/images/flag.png`} alt=""/>
                         <p className="text-white text-[14px] font-whitney_light">English, USA</p>
-                        <img className="ml-2" src={`${process.env.PUBLIC_URL}/images/arrow-down.svg`}/>
+                        <img className="ml-2" src={`${process.env.PUBLIC_URL}/images/arrow-down.svg`} alt=""/>
                     </div>
 
                     <div className="flex gap-6 mt-6">

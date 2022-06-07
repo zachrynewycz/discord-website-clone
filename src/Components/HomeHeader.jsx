@@ -1,8 +1,8 @@
-import WindowsDownloadBtn from "../WindowsDownloadBtn";
-import NavBar from "../NavBar";
+import WindowsDownloadBtn from "./WindowsDownloadBtn";
+import NavBar from "./NavBar";
 
 
-const Header = () => {
+const HomeHeader = () => {
     return (  
         <section className="bg-hero-bg min-w-[420px] relative">
             <NavBar/>
@@ -22,12 +22,12 @@ const Header = () => {
             </div>
 
             <div className="h-full w-full lg:absolute lg:top-0 lg:left-0">
-                <img className="max-w-[880px] ml-[-80px] w-full lg:w-fit lg:absolute bottom-0 z-10 lg:left-1/2 lg:ml-[-1030px]" src={`${process.env.PUBLIC_URL}/images/header-characters.svg`}/>
-                <img className="hidden lg:block absolute bottom-0 z-10 right-0 ml-[370px] left-1/2" src={`${process.env.PUBLIC_URL}/images/characters.svg`}/>
-                <img className="hidden lg:block absolute bottom-0 ml-[-1300px] left-1/2 min-w-[2500px]" src={`${process.env.PUBLIC_URL}/images/mountains.svg`}/>
+                <img className="max-w-[880px] ml-[-80px] w-full lg:w-fit lg:absolute bottom-0 z-10 lg:left-1/2 lg:ml-[-1030px]" src={`${process.env.PUBLIC_URL}/images/header-characters.svg`} alt=""/>
+                <img className="hidden lg:block absolute bottom-0 z-10 right-0 ml-[370px] left-1/2" src={`${process.env.PUBLIC_URL}/images/characters.svg`} alt=""/>
+                <img className="hidden lg:block absolute bottom-0 ml-[-1300px] left-1/2 min-w-[2500px]" src={`${process.env.PUBLIC_URL}/images/mountains.svg`} alt=""/>
             </div>
         </section>
     );
 }
  
-export default Header;
+export default HomeHeader;
