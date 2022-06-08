@@ -4,7 +4,7 @@ import NitroPerk from "../Components/NitroPerk";
 
 const Nitro = () => {
     return (  
-        <div>
+        <>
             <NitroHeader/>
 
             <section className="max-w-[1260px] mx-auto min-w-[420px] relative">
@@ -59,14 +59,14 @@ const Nitro = () => {
                 <div className="py-28 px-10">
                     <h1 className="font-giton_regular text-dark-not-black text-3xl text-center">Doitdoitdoitdoitdoitdoit</h1>
                     <div className="flex flex-col lg:grid lg:grid-cols-4 gap-5">
-                        <button className="relative font-whitney_regular text-white text-xl bg-dark-not-black rounded-full py-3 px-7 mt-10 flex items-center justify-center col-start-2">$99.99 per year <span className="bg-brand text-xs rounded-full px-2 ml-2">16% off</span></button>
-                        <button className="relative font-whitney_regular text-white text-xl bg-dark-not-black rounded-full py-3 px-7 mt-10 col-start-3">$9.99 per month</button>
+                        <button className="relative font-whitney_regular text-white text-xl bg-not-quite-black rounded-full py-3 px-7 mt-10 flex items-center justify-center col-start-2 hover:bg-dark-not-black hover:shadow-xl ease-in duration-200">$99.99 per year <span className="bg-brand text-xs rounded-full px-2 ml-2">16% off</span></button>
+                        <button className="relative font-whitney_regular text-white text-xl bg-not-quite-black rounded-full py-3 px-7 mt-10 col-start-3 hover:bg-dark-not-black hover:shadow-xl ease-in duration-200">$9.99 per month</button>
                     </div>
                 </div>
             </section>
 
             <Footer/>
-        </div>
+        </>
     );
 }
  

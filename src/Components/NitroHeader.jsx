@@ -7,7 +7,7 @@ const NitroHeader = () => {
 
             <img className="lg:hidden w-60 absolute left-[52%]" src={`${process.env.PUBLIC_URL}/images/wumpus.png`} alt=""/>
             
-            <div className="max-w-[1200px] mt-20 px-6 relative z-10 md:px-24 lg:grid lg:grid-cols-12 lg:grid-rows-3 lg:mx-auto xl:px-0 pb-10">
+            <div className="max-w-[1200px] mt-20 px-6 relative z-10 md:px-24 lg:grid lg:grid-cols-12 lg:grid-rows-3 lg:mx-auto xl:px-0 pb-36">
                 <img className="mx-auto mt-36 lg:m-0 lg:row-start-1 col-span-3 min-w-[320px]" src={`${process.env.PUBLIC_URL}/images/nitro-logo.svg`} alt=""/>
                 <p className="font-whitney_light text-white mt-10 text-center min-w-[400px] max-w-[650px] mx-auto text-headerParagraph lg:text-left row-start-2 lg:mt-5 col-span-5">Get an enhanced Discord experience for one low monthly cost. Upgrade your emoji, enjoy bigger file uploads, stand out in your favorite Discords, and more.</p>
                 
@@ -18,7 +18,7 @@ const NitroHeader = () => {
             </div>
 
             <div className="absolute top-0 w-full h-full overflow-hidden">
-                <video className="hidden lg:block min-h-[150%] min-w-[140%] absolute left-[-170px]" loop autoPlay={true} src={`${process.env.PUBLIC_URL}/images/nitro-video.mp4`}/>
+                <video className="hidden lg:block min-w-[150%] min-h-[130%] -left-[20%] absolute" loop autoPlay={true} src={`${process.env.PUBLIC_URL}/images/nitro-video.mp4`}/>
             </div>
         </section>
     );
