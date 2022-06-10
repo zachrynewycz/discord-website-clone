@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Nitro from './Pages/Nitro';
 import Download from './Pages/Download';
+import Safety from './Pages/Safety';
 
 const App = () => {
   return (  
@@ -12,10 +13,8 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/download' element={<Download/>}/>
           <Route path='/nitro' element={<Nitro/>}/>
-          <Route path='/safety'/>
-          <Route path='/support'/>
+          <Route path='/safety' element={<Safety/>}/>
           <Route path='/blog'/>
-          <Route path='/careers'/>
         </Routes>
       </BrowserRouter>
     </div>
