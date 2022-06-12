@@ -29,7 +29,7 @@ module.exports = {
         headerParagraph: "clamp(16px,2vw,20px)",
         sectionHeader: "clamp(20px, 4vw, 40px)",
         deviceHeader: "clamp(18px, 3vw, 32px)"
-      }
+      },
     },
   },
   plugins: [],
