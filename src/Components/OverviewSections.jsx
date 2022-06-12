@@ -5,7 +5,6 @@ const OverviewSections = () => {
         <div className="min-w-[420px]">
             <section className="px-6 py-28 grid grid-cols-1 md:grid-cols-2 max-w-[1260px] mx-auto">
                 <img className="w-full max-w-[670px]" src={`${process.env.PUBLIC_URL}/images/channel-demo.svg`} alt=""/>
-                
                 <div className="mt-5 md:w-2/3 mx-auto">
                     <h1 className="font-giton_bold text-dark-not-black text-sectionHeader">Create an invite-only place where you belong</h1>
                     <p className="font-whitney_light text-not-quite-black mt-4 text-headerParagraph">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
