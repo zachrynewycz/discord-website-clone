@@ -10,9 +10,10 @@ const FadeInSection = (props) => {
             //Make sure it fades in once
             entries.forEach(entry => { if(entry.isIntersecting) setIsVisible(entry.isIntersecting)})
         })
-        observer.observe(sectionRef.current);
+        const { current } = sectionRef;
+        observer.observe(current);
         //Cleanup
-        return () => observer.unobserve(sectionRef.current)
+        return () => observer.unobserve(current)
     }, [])
 
     return (  
