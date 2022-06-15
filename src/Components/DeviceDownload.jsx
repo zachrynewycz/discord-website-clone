@@ -1,6 +1,6 @@
 const DeviceDownload = () => {
     return (  
-        <section className="py-28 flex justify-center">
+        <section className="py-28 flex justify-center min-w-[420px]">
             <div className="grid px-10 md:grid-cols-2 md:grid-rows-[155px_auto_155px_auto_155px] gap-5 max-w-[1200px] min-w-[420px]">
                 <div className="p-14 bg-off-white rounded-2xl h-[300px] md:h-[550px] overflow-hidden flex flex-col row-span-2">
                     <h1 className="font-giton_regular text-deviceHeader text-center">iOS</h1>
