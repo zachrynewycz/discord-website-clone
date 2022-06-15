@@ -1,12 +1,12 @@
 import Footer from "../Components/Footer";
 import HomeHeader from "../Components/HomeHeader";
-import OverviewSections from "../Components/OverviewSections";
+import HomeOverviewSections from "../Components/HomeOverviewSections";
 
 const Home = () => {
     return (  
         <>
             <HomeHeader/>
-            <OverviewSections/>
+            <HomeOverviewSections/>
             <Footer/>
         </>
     );

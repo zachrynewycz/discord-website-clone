@@ -31,17 +31,6 @@ module.exports = {
         sectionHeader: "clamp(20px, 4vw, 40px)",
         deviceHeader: "clamp(18px, 3vw, 32px)"
       },
-      
-      animation: {
-        fadeIn: "fadeIn .7s ease-in forwards"
-      },
-      
-      keyframes: {
-        fadeIn: {
-          "0%": { opacity: 0, transform: "translateY(5vh)"},
-          "100%": { opacity: 1, transform: "translateY(0vh)"}
-        }
-      }
     },
   },
   plugins: [],

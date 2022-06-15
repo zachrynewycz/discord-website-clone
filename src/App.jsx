@@ -14,7 +14,6 @@ const App = () => {
           <Route path='/download' element={<Download/>}/>
           <Route path='/nitro' element={<Nitro/>}/>
           <Route path='/safety' element={<Safety/>}/>
-          <Route path='/blog'/>
         </Routes>
       </BrowserRouter>
     </div>

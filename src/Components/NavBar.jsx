@@ -14,9 +14,9 @@ const NavBar = () => {
                 <Link className="mx-2.5 p-2.5 hover:underline" to="/download">Download</Link>
                 <Link className="mx-2.5 p-2.5 hover:underline" to="/nitro">Nitro</Link>
                 <Link className="mx-2.5 p-2.5 hover:underline" to="/safety">Safety</Link>
-                <Link className="mx-2.5 p-2.5 hover:underline" to="/support">Support</Link>
-                <Link className="mx-2.5 p-2.5 hover:underline" to="/blog">Blog</Link>
-                <Link className="mx-2.5 p-2.5 hover:underline" to="/careers">Careers</Link>
+                <a className="mx-2.5 p-2.5 hover:underline">Support</a>
+                <a className="mx-2.5 p-2.5 hover:underline">Blog</a>
+                <a className="mx-2.5 p-2.5 hover:underline">Careers</a>
             </ul>
 
             <div className="flex items-center">
