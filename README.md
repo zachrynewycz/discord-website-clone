@@ -1,6 +1,6 @@
 
 # Discord Website Clone
-This project is a clone of the official discord website *(including animations)*. Recreated it as close to 1:1 as possible. Out of the seven pages that discord has, the clone features four out of the seven pages.  
+This project is a clone of the official discord website *(including animations)*. Recreated it as close to 1:1 as possible. Of the seven pages that discord has, the clone features four out of the seven pages.  
 
 **Live Demo:** https://discord-clone-bda18.web.app/
 
