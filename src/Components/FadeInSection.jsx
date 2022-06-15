@@ -5,10 +5,13 @@ const FadeInSection = (props) => {
     const sectionRef = useRef();
 
     useEffect(() => {
+        //Check if the section is on screen::if it is then have it fade in
         const observer = new IntersectionObserver(entries => {
+            //Make sure it fades in once
             entries.forEach(entry => { if(entry.isIntersecting) setIsVisible(entry.isIntersecting)})
         })
         observer.observe(sectionRef.current);
+        //Cleanup
         return () => observer.unobserve(sectionRef.current)
     }, [])
 

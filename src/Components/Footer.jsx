@@ -1,4 +1,3 @@
-import { useId } from "react"
 
 const Footer = () => {
     const productList = {header: "Products", data: ["Download", "Nitro", "Status"]}
@@ -10,7 +9,7 @@ const Footer = () => {
         return (
             <div className="mb-6 flex flex-col font-whitney_light">
                 <span className="text-brand mb-2">{list.header}</span>
-                {list.data.map((item) => <span key={Math.random() * 10000} className=" text-white leading-8 hover:underline cursor-pointer">{item}</span> )}
+                {list.data.map((item) => <span key={item} className=" text-white leading-8 hover:underline cursor-pointer">{item}</span> )}
             </div>
         )
     }
